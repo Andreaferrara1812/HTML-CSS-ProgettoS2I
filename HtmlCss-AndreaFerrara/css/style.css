@@ -1,0 +1,128 @@
+
+/* ScrollSpy */
+body { position: relative; }
+/* ScrollSpy */
+
+
+/* Immagine di sfondo */
+#intro{
+  background: url("immagini/tappo1.jpg");
+  height: 100vh
+
+}
+
+ @media (min-width: 576px) {
+#intro{
+
+  margin-top: -85px;
+
+ }
+
+}
+/* Immagine di sfondo */
+
+/* Transizioni */
+#frase{
+margin-top: 20px;
+font-style: italic;
+
+ }
+
+ #ernest{
+
+ font-style: italic;
+
+  }
+
+ #proverbio{
+margin-bottom: 45px;
+margin-top: 10px;
+
+ }
+
+
+ #divisore{
+ margin-bottom: 45px;
+ margin-top: 45px;
+
+ }
+
+#divisore1{
+
+ margin-top: 45px;
+
+ }
+ /* Transizioni */
+
+
+/* Piè di pagina */
+ #footer{
+
+ margin-top: 45px;
+
+ }
+ /* Piè di pagina */
+
+ /* Font */
+
+ :root {
+    --mdb-font-roboto: "Helvetica",sans-serif;
+}
+
+body {
+    font-family: "Helvetica",sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
+    color: #000000;
+}
+/* Font */
+
+/* Navbar */
+
+.nav-tabs .nav-link {
+    border: solid transparent;
+    border-width: 0 0 2px;
+    border-radius: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 0.75em;
+    color: #000000;
+    padding: 16px 20px 10px;
+}
+
+.navbar-brand {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-right: 0;
+    font-size: 2rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+/* Font */
+
+/* Bottoni Social*/
+.btn-primary{
+
+margin: 10px;
+
+}
+/* Bottoni Social*/
+
+
+/* Font Introduzione */
+.start{
+  margin: 0.5em;
+  padding: 1em;
+border: 0.2em solid;
+font-size: calc(2rem + 1.5vw);
+}
+/* Font Introduzione */
+
+
+
+
+
+/* Styles required only for the example above */

@@ -1,0 +1,33 @@
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 768px;
+}
+}
+#footer{
+
+margin-top: 45px;
+
+}
+
+body {
+    font-family: var(--mdb-font-roboto);
+    line-height: 1.6;
+    color: #000000;
+}
+
+:root {
+   --mdb-font-roboto: "Helvetica",sans-serif;
+}
+
+p {
+   font-size: 18px;
+}
+.navbar-brand {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    margin-right: 0;
+    font-size: 2rem;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
